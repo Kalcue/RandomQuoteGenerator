@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('assets/background.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 750px;
+    margin: auto;
+    margin-top:128px ;
+    align-items: center;
+    background-color: lightgray;
+    border: 3px solid black;
+}
+
+#quoteButton {
+    display: flex; 
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: larger;
+    padding: 2px;
+    margin-top: 64px;
+    background-color: lightblue;
+    cursor: pointer;
+    transition: background-color 0.3s
+}
+
+#quoteButton:hover {
+    color: white;
+    background-color: lightskyblue;
+}
+
+#output {
+    background-color: lightgray;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-style: italic;
+    font-size: larger;
+    margin-top: 24px;
+}
